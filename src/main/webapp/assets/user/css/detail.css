@@ -1,0 +1,125 @@
+.product-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnail {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.thumbnail:hover,
+.thumbnail.active {
+    opacity: 1;
+}
+
+.offer-box {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.offer-box ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.offer-box ul li::before {
+    content: '✔';
+    color: #10b981;
+    font-size: 14px;
+}
+
+.thumbnail-wrapper {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.thumbnail-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.next-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.description-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnail {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid transparent;
+}
+
+.thumbnail:hover,
+.thumbnail.active {
+    opacity: 1;
+    border-color: #3b82f6;
+}
+
+.thumbnail-wrapper {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.thumbnail-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 10px;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}

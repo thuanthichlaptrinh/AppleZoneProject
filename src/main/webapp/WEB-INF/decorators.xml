@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/views/layouts">
+    <decorator name="admin" page="admin/admin.jsp">
+        <pattern>/quan-tri</pattern>
+        <pattern>/quan-tri/*</pattern>
+    </decorator>
+    <decorator name="user" page="user/user.jsp">
+        <pattern>/trang-chu</pattern>
+        <pattern>/</pattern>
+    </decorator>
+</decorators>
