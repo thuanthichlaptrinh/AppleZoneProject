@@ -1,5 +1,5 @@
 # Xây dựng website bán các sản phẩm của Apple 
-## Mô tả: Hỗ trợ người dùng có thể mua hàng trực tuyến một cách dễ dàng, tích hợp thanh toán trực tuyến và phân quyền người dùng
+## Mô tả: Hỗ trợ người dùng có thể mua hàng trực tuyến một cách dễ dàng, tích hợp thanh toán trực tuyến và phân quyền người dùng, bảo mật thông tin người dùng...
 ### Một số hình ảnh:
 ![image](https://github.com/user-attachments/assets/37988efc-a0b9-4d27-bf77-b5031fc2e201)
 ![image](https://github.com/user-attachments/assets/053f7694-157a-436e-ab87-679a0d7fe31d)
