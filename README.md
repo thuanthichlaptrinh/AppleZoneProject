@@ -21,14 +21,9 @@ Dự án website thương mại điện tử chuyên kinh doanh các sản phẩ
 ## 🛠 Công nghệ sử dụng
 
 -   **Backend**:
-    -   Java 11
-    -   Spring MVC (5.3.23)
-    -   Spring JDBC Template (Data Access)
-    -   Spring Security (5.8.7) (Phân quyền & Bảo mật)
+    -   Java 11, Spring MVC (5.3.23), Spring JDBC Template (Data Access), Spring Security (5.8.7) (Phân quyền & Bảo mật)
 -   **Frontend**:
-    -   JSP (JavaServer Pages)
-    -   HTML5, CSS3, JavaScript
-    -   SiteMesh (Layout decoration)
+    -   JSP (JavaServer Pages), HTML5, CSS3, JavaScript, SiteMesh (Layout decoration)
 -   **Database**: SQL Server
 -   **Build Tool**: Maven
 
@@ -76,7 +71,6 @@ mvn clean install
 
 ## 📸 Một số hình ảnh của dự án
 
-![image](https://github.com/user-attachments/assets/75c33f54-50a6-4617-8e22-6f71bbcfd717)
 ![image](https://github.com/user-attachments/assets/37988efc-a0b9-4d27-bf77-b5031fc2e201)
 ![image](https://github.com/user-attachments/assets/053f7694-157a-436e-ab87-679a0d7fe31d)
 ![image](https://github.com/user-attachments/assets/cf186451-984f-4ce4-8105-f3286c2df573)
